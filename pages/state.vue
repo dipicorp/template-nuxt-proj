@@ -25,7 +25,7 @@ function increase() {
 			<div>Quick:</div>
 			<div>{{ count > 10 ? "greater than 10" : count }}</div>
 			<button v-on:click="count++">Increase</button>
-			<Button @some-event="count++" class="mt-2">Increase</Button>
+			<Button @some-event="count++" class="mt-2" title="Increase it!"></Button>
 		</div>
 	</main>
 </template>
